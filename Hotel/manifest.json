@@ -1,0 +1,64 @@
+
+{
+  "lang": "en",
+  "dir": "ltr",
+  "name": "Hotel Progressive Web Application",
+  "short_name": "HotelPWA",
+  "lang": "ru",
+  "start_url": "anreel.wd.nubip.edu.ua/Hotel/index.php",
+  "display": "browser",
+  "theme_color": "#4682B4",
+  "display": standalone",//browser? minimal-ui, fullscreen "background_color": "#3E4EB8 "display": "2F3BA2 }
+
+  "icons": [
+    {
+      "src": "header.png",
+      "sizes": "1x261",
+      "type": "image/png"
+    },
+    {
+      "src": "header.png",
+      "sizes": "1652x102",
+      "type": "image/png"
+    },
+    {
+      "src": "li.png",
+      "sizes": "4x7",
+      "type": "image/png"
+    },
+    {
+      "src": "main.png",
+      "sizes": "1x5",
+      "type": "image/png"
+    },
+    {
+      "src": "shadow.png",
+      "sizes": "2x895",
+      "type": "image/png"
+    }
+  ]
+}
+
+<head>
+<link rel="manifest" href="manifest.json">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="application-name" content="HotelPWA">
+<meta name="apple-mobile-web-app-title" content="HotelPWA">
+<meta name="theme-color" content="#4682B4">
+<meta name="msapplication-navbutton-color" content="#4682B4">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="anreel.wd.nubip.edu.ua/Hotel/index.php">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" type="image/png" sizes="1x261" href="header.png">
+<link rel="apple-touch-icon" type="image/png" sizes="1x261" href="header.png">
+<link rel="icon" type="image/png" sizes="1652x102" href="header.png">
+<link rel="apple-touch-icon" type="image/png" sizes="1652x102" href="header.png">
+<link rel="icon" type="image/png" sizes="4x7" href="li.png">
+<link rel="apple-touch-icon" type="image/png" sizes="4x7" href="li.png">
+<link rel="icon" type="image/png" sizes="1x5" href="main.png">
+<link rel="apple-touch-icon" type="image/png" sizes="1x5" href="main.png">
+<link rel="icon" type="image/png" sizes="2x895" href="shadow.png">
+<link rel="apple-touch-icon" type="image/png" sizes="2x895" href

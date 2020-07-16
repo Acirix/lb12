@@ -1,0 +1,58 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffffff;
+	font-size: 14px;
+ background: #E0FFFF;
+}
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    padding: 5px;
+}
+
+.footer {
+    padding: 15px 0;
+    display: block;
+    clear: left;
+}
+header, footer{
+ background: #4682B4;
+    margin: 5px;
+    padding: 5px;
+}
+footer{
+    display: block;
+    clear: left;
+}
+<style>
+  .scheduler_default_rowheader_inner
+  {
+      border-right: 1px solid #ccc;
+  }
+  .scheduler_default_rowheader.scheduler_default_rowheadercol2
+  {
+      background: #fff;
+  }
+  .scheduler_default_rowheadercol2 .scheduler_default_rowheader_inner
+  {
+      top: 2px;
+      bottom: 2px;
+      left: 2px;
+      background-color: transparent;
+      border-left: 5px solid #1a9d13; /* green */
+      border-right: 0px none;
+  }
+  .status_dirty.scheduler_default_rowheadercol2 .scheduler_default_rowheader_inner
+  {
+      border-left: 5px solid #ea3624; /* red */
+  }
+  .status_cleanup.scheduler_default_rowheadercol2 .scheduler_default_rowheader_inner
+  {
+      border-left: 5px solid #f9ba25; /* orange */
+  }
+</style>
